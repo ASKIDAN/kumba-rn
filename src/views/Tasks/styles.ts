@@ -25,6 +25,7 @@ export default StyleSheet.create({
     fontSize: 16,
     textAlign: 'center',
     fontWeight: 'bold',
+    color: '#112950',
   },
   activeContainer: {
     borderColor: '#A68BFF',

@@ -22,6 +22,7 @@ export default StyleSheet.create({
   tabText: {
     fontSize: 24,
     fontWeight: '500',
+    color: '#000',
   },
   activeTab: {
     color: '#22A3C3',

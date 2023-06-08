@@ -9,8 +9,10 @@ export default StyleSheet.create({
   label: {
     marginLeft: 13,
     marginBottom: 4,
+    color: '#8A94A6',
   },
   buttons: {
+    gap: 10,
     marginTop: 20,
     display: 'flex',
     flexDirection: 'row',
@@ -22,14 +24,16 @@ export default StyleSheet.create({
     borderStyle: 'solid',
     borderColor: '#22A3C3',
     borderWidth: 1,
-    minWidth: 160,
+    flex: 1,
   },
   text: {
     textAlign: 'center',
     fontSize: 16,
     fontWeight: '600',
   },
-  textCancel: {},
+  textCancel: {
+    color: '#000',
+  },
   textContinue: {
     color: '#fff',
   },
@@ -40,6 +44,7 @@ export default StyleSheet.create({
     backgroundColor: '#22A3C3',
   },
   input: {
+    color: '#323B4B',
     backgroundColor: '#fff',
     borderRadius: 8,
     borderStyle: 'solid',
